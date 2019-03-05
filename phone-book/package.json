@@ -1,0 +1,33 @@
+{
+  "name": "phone-book",
+  "version": "1.0.0",
+  "description": "My trial nuxt.js project",
+  "author": "chepmanu",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@firebase/firestore-types": "^0.7.0",
+    "@grpc/proto-loader": "^0.3.0",
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/bulma": "^1.2.0",
+    "cross-env": "^5.2.0",
+    "firebase": "^5.5.3",
+    "moment": "^2.22.2",
+    "nuxt": "^2.0.0",
+    "vuexfire": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
